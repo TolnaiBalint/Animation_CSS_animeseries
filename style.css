@@ -4,7 +4,6 @@
 body {
     background: rgba(0, 0, 0, 0.75);
     margin: 80px 5%;
-    
 }
 
 h1 {
@@ -43,6 +42,12 @@ strong {
     width: 100%;
     height: 100%;
 }
+
+
+
+/*------------------------------------*\
+    WRAPPER
+\*------------------------------------*/
 
 .wrapper {
     transition: all 0.5s;
@@ -100,6 +105,12 @@ strong {
     height: 120px;
 }
 
+
+
+/*------------------------------------*\
+    TITLE
+\*------------------------------------*/
+
 .title {
     width: 60%;
     transition: transform 0.5s;
@@ -109,6 +120,12 @@ strong {
 .card:hover .title {
     transform: translate3d(0%, -30px, 100px);  
 }
+
+
+
+/*------------------------------------*\
+    CHARACTER
+\*------------------------------------*/
 
 .character {
     width: 100%;
